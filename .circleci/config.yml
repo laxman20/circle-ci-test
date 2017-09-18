@@ -3,7 +3,6 @@ jobs:
    build:
      docker:
        - image: circleci/python:3.6
-     steps:
-       - checkout
-       - run: echo "hello world"
-  
+       steps:
+           - checkout
+           - run: echo "hello world"
