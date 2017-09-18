@@ -11,4 +11,4 @@ jobs:
        - run: sudo pip install -q awscli --upgrade
        
        - run: aws --version
-       - run: pwd
+       - run: ls
