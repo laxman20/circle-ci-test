@@ -1,11 +1,9 @@
 version: 2
 jobs:
-  build:
-    working_directory: ~/circle-ci-test
-    docker:
-      - image: circleci/python:3.6
-    steps:
-      - checkout
-      - run:
-        name: Hello world
-        command: echo "Hello world"          
+   build:
+     docker:
+       - image: circleci/python:3.6
+     steps:
+       - checkout
+       - run: echo "hello world"
+  
